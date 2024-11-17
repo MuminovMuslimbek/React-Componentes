@@ -1,0 +1,27 @@
+.userCar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: 1px solid rgb(20, 19, 18);
+    padding: 5px 3px;
+    border-radius: 7px;
+    li {
+        font-size: 12px;
+        padding-left: 13px;
+        position: relative;
+        &::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            position: absolute;
+            top: 30%;
+            left: 3px;
+            background-color: red;
+            border: 1px solid rgb(20, 19, 18);
+            border-radius: 50%;
+        }
+    }
+}
