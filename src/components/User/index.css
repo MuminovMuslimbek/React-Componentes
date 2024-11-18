@@ -20,8 +20,9 @@
 .userText {
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    justify-content: space-between;
     gap: 7px;
+    padding: 10px;
     span {
         position: absolute;
         top: 10px;
