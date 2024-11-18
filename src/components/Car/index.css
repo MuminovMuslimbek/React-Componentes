@@ -1,9 +1,16 @@
+.userCarWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
 .userCar {
+    max-width: 90px;
     width: 100%;
     display: flex;
     align-items: center;
     gap: 7px;
-    flex-wrap: wrap;
     background-color: aqua;
     border: 1px solid rgb(20, 19, 18);
     padding: 5px 3px;

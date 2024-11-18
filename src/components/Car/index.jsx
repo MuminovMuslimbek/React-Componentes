@@ -2,10 +2,8 @@ import './index.css';
 
 const Cars = (props) => {
     return (
-        <div>
-            <ul className="userCar">
-                {props.cars.map((car) => <li>{car}</li>)}
-            </ul>
+        <div className='userCarWrapper'>
+            {props.cars.length ? props.cars.map((car) => <ul className="userCar"><li>{car}</li></ul>) : ''}
         </div>
     );
 };
